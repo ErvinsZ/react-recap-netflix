@@ -3,7 +3,7 @@ import {Navbar, Nav, Form, Button, FormControl, Image} from 'react-bootstrap'
 
 const NavBar = () => (
 
-    <Navbar bg="dark" expand="lg">
+    <Navbar id="nav"  expand="lg">
   <Navbar.Brand href="#home">
       <Image
       src = "https://logos-download.com/wp-content/uploads/2016/03/Netflix_logo.png"

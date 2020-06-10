@@ -1,6 +1,8 @@
 import React from 'react';
 import NavBar from "./component/NavBar"
 import Footer from "./component/Footer"
+import Gallery from "./component/Gallery"
+//import Home from "./component/Home"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import {Container, Row, Col, Dropdown, DropdownButton} from 'react-bootstrap'
@@ -14,6 +16,7 @@ function App() {
   return (
     <div className="App">
      <NavBar/>
+      
      <Container fluid className="px-4">
       <Row className = "justify-content-between">
         <Col className = "d-flex">
@@ -38,6 +41,9 @@ function App() {
         </Col>
       </Row>
      </Container>
+
+     <Gallery/>
+     <Gallery/>
      <Footer/>
     </div>
   );
